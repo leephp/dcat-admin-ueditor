@@ -1,12 +1,12 @@
 <?php
 
 
-namespace TyrantG\UEditor;
+namespace LeePhpG\UEditor;
 
 
-use TyrantG\UEditor\Events\Catched;
-use TyrantG\UEditor\Events\Uploaded;
-use TyrantG\UEditor\Events\Uploading;
+use LeePhpG\UEditor\Events\Catched;
+use LeePhpG\UEditor\Events\Uploaded;
+use LeePhpG\UEditor\Events\Uploading;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;

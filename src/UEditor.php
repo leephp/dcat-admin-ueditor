@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TyrantG\UEditor;
+namespace LeePhpG\UEditor;
 
 use Dcat\Admin\Form\Field;
 

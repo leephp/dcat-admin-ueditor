@@ -1,15 +1,15 @@
 {
-    "name": "tyrantg/dcat-admin-ueditor",
+    "name": "leephp/dcat-admin-ueditor",
     "alias": "UEditor编辑器",
-    "description": "Dcat Admin扩展 - UEditor编辑器",
+    "description": "Dcat Admin 2.x扩展 - UEditor编辑器",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "",
     "license": "MIT",
     "authors": [
         {
-            "name": "TyrantGenesis",
-            "email": "genesis489449701@gmail.com"
+            "name": "JasonLee",
+            "email": "leejason@yeah.net"
         }
     ],
     "require": {
@@ -18,14 +18,14 @@
     },
     "autoload": {
         "psr-4": {
-            "TyrantG\\UEditor\\": "src/"
+            "LeePhpG\\UEditor\\": "src/"
         }
     },
     "extra": {
-        "dcat-admin": "TyrantG\\UEditor\\DcatAdminUEditorServiceProvider",
+        "dcat-admin": "LeePhpG\\UEditor\\DcatAdminUEditorServiceProvider",
         "laravel": {
             "providers": [
-                "TyrantG\\UEditor\\DcatAdminUEditorServiceProvider"
+                "LeePhpG\\UEditor\\DcatAdminUEditorServiceProvider"
             ]
         }
     }

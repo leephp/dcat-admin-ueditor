@@ -1,6 +1,6 @@
 <?php
 
-namespace TyrantG\UEditor;
+namespace LeePhpG\UEditor;
 
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\Admin;
@@ -23,8 +23,8 @@ class DcatAdminUEditorServiceProvider extends ServiceProvider
         Admin::asset()->alias('@ueditor', [
 //            'css' => [],
             'js' => [
-                '/vendor/dcat-admin-extensions/tyrantg/dcat-admin-ueditor/ueditor.config.js',
-                '/vendor/dcat-admin-extensions/tyrantg/dcat-admin-ueditor/ueditor.all.js',
+                '/vendor/dcat-admin-extensions/leephpg/dcat-admin-ueditor/ueditor.config.js',
+                '/vendor/dcat-admin-extensions/leephpg/dcat-admin-ueditor/ueditor.all.js',
             ],
         ]);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace TyrantG\UEditor;
+namespace LeePhpG\UEditor;
 
 use Dcat\Admin\Extend\Setting as Form;
 

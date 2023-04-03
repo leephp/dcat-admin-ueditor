@@ -1,11 +1,11 @@
 <?php
 
-namespace TyrantG\UEditor\Http\Controllers;
+namespace LeePhpG\UEditor\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use TyrantG\UEditor\Storage;
-use TyrantG\UEditor\UEditor;
+use LeePhpG\UEditor\Storage;
+use LeePhpG\UEditor\UEditor;
 
 class UEditorController extends Controller
 {

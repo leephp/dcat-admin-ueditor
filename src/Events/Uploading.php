@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TyrantG\UEditor\Events;
+namespace LeePhpG\UEditor\Events;
 
 
 use Illuminate\Broadcasting\InteractsWithSockets;
