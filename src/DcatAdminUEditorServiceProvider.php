@@ -23,8 +23,8 @@ class DcatAdminUEditorServiceProvider extends ServiceProvider
         Admin::asset()->alias('@ueditor', [
 //            'css' => [],
             'js' => [
-                '/vendor/dcat-admin-extensions/leephpg/dcat-admin-ueditor/ueditor.config.js',
-                '/vendor/dcat-admin-extensions/leephpg/dcat-admin-ueditor/ueditor.all.js',
+                '/vendor/dcat-admin-extensions/leephp/dcat-admin-ueditor/ueditor.config.js',
+                '/vendor/dcat-admin-extensions/leephp/dcat-admin-ueditor/ueditor.all.js',
             ],
         ]);
 
