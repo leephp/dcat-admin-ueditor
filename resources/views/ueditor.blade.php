@@ -6,9 +6,7 @@
 
         @include('admin::form.error')
 
-        <script id="{{$name}}" type="text/plain">
-            {!! old($column, $value) !!}
-        </script>
+        <script id="{{$name}}" type="text/plain">{!! old($column, $value) !!}</script>
 
         @include('admin::form.help-block')
 
